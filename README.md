@@ -1,2 +1,2 @@
-# jquery-example
-JQuery demo
+# JQuery example
+

@@ -1,0 +1,251 @@
+<html>
+<head>
+<title>JQuery Demo</title>
+<meta charset="UTF-8">
+		<meta name="description" content="This is a JQuery Demo site">
+		<meta name="keywords" content="JQuery">
+		<meta name="author" content="Colin But">
+		<link rel="stylesheet" type="text/css" href="css/style.css"> <!-- CSS -->
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+	<h1>JQuery Demo</h1>
+	<h2>This site demonstrates the usage of JQuery with some of its most amazing features...</h2>
+	<div class="chapter">
+		<h3>Basic - Intro</h3>
+		<div class="content">
+		<p class="intro-p">If you click on me, i will go disappear</p>
+		<p class="intro-p">I will disappear too if you click me </p>
+		<p class="intro-p">Me too! And i won't come back</p>
+		</div>
+	</div>
+	<!-- Just some extra space for styling purposes -->
+	<div class="space"></div>
+	<div class="chapter">
+		<h3>Selectors</h3>
+		<div class="content"></div>
+	</div>
+	<!-- Just some extra space for styling purposes -->
+	<div class="space"></div>
+	<div class="chapter">
+		<h3>Events</h3>
+		<div class="content">
+			<p id="mouse-enter">Enter your mouse here</p>
+			<p id="mouse-leave">Enter your mouse here then leave</p>
+			<p id="mouse-clickDown">Click here</p>
+			<p id="mouse-clickUp">Click here</p>
+			<p id="mouse-hover">Hover your mouse here</p>
+		</div>
+	</div>
+	<!-- Just some extra space for styling purposes -->
+	<div class="space"></div>
+	<div class="chapter">
+		<h3>Effects</h3>
+		<div class="content" style="margin:5px;">
+			<h5 id="hide">Hide</h5>
+			
+			<table id="to-hide">
+				<tr><!-- using in-line CSS rather than external CSS --> 
+				<td><div style="background-color: red;width:100px;height:100px;"></div></td>
+				<td><div style="background-color: purple;width:100px;height:100px;"></div></td>
+				<td><div style="background-color: cyan;width:100px;height:100px;"></div></td>
+				</tr>
+			</table>
+
+			<h5 id="fade">Fade</h5>
+
+			<table>
+				<tr><!-- using in-line CSS rather than external CSS --> 
+				<td><div class="to-fade-out" style="background-color: red;width:100px;height:100px;"></div></td>
+				<td><div class="to-fade-out" style="background-color: purple;width:100px;height:100px;"></div></td>
+				<td><div class="to-fade-out" style="background-color: cyan;width:100px;height:100px;"></div></td>
+				</tr>
+			</table>
+
+			<h5 id="slide">Slide</h5>
+
+			<table>
+				<tr><!-- using in-line CSS rather than external CSS --> 
+				<td><div class="to-slide-up" style="background-color: red;width:100px;height:100px;"></div></td>
+				<td><div class="to-slide-up" style="background-color: purple;width:100px;height:100px;"></div></td>
+				<td><div class="to-slide-up" style="background-color: cyan;width:100px;height:100px;"></div></td>
+				</tr>
+			</table>
+
+			<h5 id="animate">Animate</h5>
+
+			<table id="to-animate">
+				<tr><!-- using in-line CSS rather than external CSS --> 
+				<td><div style="background-color: red;width:100px;height:100px;"></div></td>
+				<td><div style="background-color: purple;width:100px;height:100px;"></div></td>
+				<td><div style="background-color: cyan;width:100px;height:100px;"></div></td>
+				</tr>
+			</table>
+
+		</div>
+	</div>
+	<!-- Just some extra space for styling purposes -->
+	<div class="space"></div>
+	<div class="chapter">
+		<h3>HTML and CSS Manipulation</h3>
+		<div class="content">
+		<p>This section gives some examples of basic DOM manipulation:</p>
+		<ul>
+			<li>Get</li>
+			<li>Set</li>
+			<li>Add (append/prepend/before/after)</li>
+			<li>Remove</li>
+			<li>CSS classes</li>
+			<li>Dimensions</li>
+		</ul>
+		<br />
+		<p id="text">This peice of text contains <b>bold</b>, <i>italics</i>, and <u>underlined</u> text formatting.</p>
+		<button id="btn1">Show Text</button>
+		<button id="btn2">Show HTML</button>
+		<p id="display">[Extracted Text goes gere]</p>
+		<p id="message">Click on above either 2 buttons and the extracted text will be placed in placeholder aboveo</p>
+		<br />
+		<p>Name: <input type="text" id="inputfield" placeholder="Enter your name"></p>
+		<p>Click on button to show value of input field <button id="btn3">Click</button></p>
+		<p>Click on this link <a id="google-link" href="http://www.google.co.uk">Google website</a> to get the attribute </p>
+		<br />
+		<p id="append">Click on me to append some text</p>
+		<p id="prepend">Click on me to prepend some text</p>
+		<p id="before">Click on me to insert some text before this element</p>
+		<p id="after">Click on me to insert some text after this element</p>
+		<br />
+		<button id="remove">Remove Div</button>
+		<div id="remove-div"></div>
+		<br />
+		<button id="empty">Empty Div </button>
+		<div id="empty-div">
+			<p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+				"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
+		</div>
+		<h5>CSS Classes</h5>
+		<p id="add-class">Click on me to add some class to this line</p>
+		<p id="remove-class" class="removed-class">Click on me to add some class to this line</p>
+		</div>
+
+	</div>
+	<!-- Just some extra space for styling purposes -->
+	<div class="space"></div>
+	<div class="chapter">
+		<h3>Traversing</h3>
+		<div class="content"></div>
+	</div>
+	<!-- Just some extra space for styling purposes -->
+	<div class="space"></div>
+	<div class="chapter">
+		<h3>AJAX</h3>
+		<div class="content">
+			<h4><b><u>A</u></b>synchronous <b><u>J</u></b>avaScript <b><u>A</u></b>nd <b><u>X</u></b>ML</h4>
+		</div>
+	</div>
+	<!-- Just some extra space for styling purposes -->
+	<div class="space"></div>
+	<div class="chapter">
+		<h3>JQuery UI</h3>
+		<div class="content"></div>
+	</div>
+	<div>
+		<h4>See Also:</h4>
+		<ul>
+			<li><a href="#">JQuery Site</a></li>
+			<li><a href="#">W3WSchools - JQuery Tutorial</a></li>
+			<li><a href="#">Learn JQuery</a></li>
+			<li><a href="#">JQuery - Wiki</a></li>
+		</ul>
+		
+	</div>
+	<!-- Just some extra space for styling purposes -->
+	<div class="space"></div>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+			/* Basic JQuery Intro */
+
+
+			alert("Message from JQuery: This html page is ready");
+
+			$('.intro-p').click(function(){
+				// using "this" to only hide currently clicked
+				$(this).hide();
+			});
+
+			/* DOM (Document Object Model) Manipulation */
+			$('#btn1').click(function(){
+				$('#display').text("Text is: " + $('#text').text());
+			});
+
+			$('#btn2').click(function(){
+				$('#display').text("HTML markup is: " + $('#text').html());
+			});
+
+			$('#btn3').click(function(){
+				alert("The value of the input field is: " + $('#inputfield').val());
+			});
+
+			$('#google-link').click(function(){
+				alert($(this).attr('href'));
+			});
+
+			$('#append').click(function(){
+				$(this).append(" - Appended text");
+			});
+
+			$('#prepend').click(function(){
+				$(this).prepend("Prepended text - ");
+			});
+
+			$('#before').click(function(){
+				$(this).before("Inserted text before below " + $('#before').get(0).tagName + " element <br />");
+			});
+
+			$('#after').click(function(){
+				$(this).after("Inserted text after above " + $('#after').get(0).tagName + " element <br />");
+			});
+
+			$('#remove').click(function(){
+				$('#remove-div').remove();
+				$('this').after("<br />"); //adds a new line after removing DIV to separate with next Button
+			});
+
+			$('#empty').click(function(){
+				$('#empty-div').empty();
+			});
+
+
+			$('#add-class').click(function(){
+				$(this).addClass('added-class');
+			});
+
+			$('#remove-class').click(function(){
+				$(this).removeClass('removed-class');
+			});
+
+
+			$('h3').click(function(){
+				$(this).next('div').slideToggle(500); //finds next div after heading to toggle the collapse/expand of section
+			});
+
+			$('#hide').click(function(){
+				$('#to-hide').hide();
+			});
+			
+			$('#fade').click(function(){
+				$('.to-fade-out').fadeOut(1000);
+			});
+
+			$('#slide').click(function(){
+				$('.to-slide-up').slideUp(2000);
+			});
+
+
+		});
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+.chapter {
+	background-color: white;
+	border: 1px solid blue;
+	/*height: 200px;*/
+	width: 100%;
+	
+}
+
+.content {
+	margin: 5px;
+}
+
+h3 {
+	background-color: black;
+	color: white;
+	padding-left: 5px;
+	margin: 0;
+}
+
+/* Just some space */
+.space {
+	height: 20px;
+}
+
+#remove-div{
+	width: 98%;
+	height: 50px;
+	margin: auto;
+	background-color: #A901DB;
+}
+
+#empty-div{
+	width: 98%;
+	margin: auto;
+	height: 50px;
+	background-color: #A901DB;
+}
+
+.added-class {
+	background-color: yellow;
+	font-family: "Verdana";
+	font-size: 12px;
+}
+
+
+#remove-class {
+	/**/
+}
+
+.removed-class {
+	background-color: orange;
+}
+
+
+
